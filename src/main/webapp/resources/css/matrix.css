@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.matrix {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 10px;
+}
+
+.matrix__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.matrix__item {
+    width: 30px;
+    height: 30px;
+    background: #0c4cff;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.matrix__item_booked {
+    background: #ff0000;
+}
+
+.matrix__item_selected {
+    background: #00ff59;
+}
+
+.form {
+    margin-left: 30px;
+}
+
+.form__input {
+    margin-bottom: 20px;
+}
